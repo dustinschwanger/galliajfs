@@ -68,9 +68,12 @@
 
 /* Logo */
 .site-header__logo img {
-  height: 100px;
+  max-height: 100px;
   width: auto;
+  max-width: 100%;
+  height: auto;
   display: block;
+  object-fit: contain;
 }
 
 /* Mobile Toggle */
